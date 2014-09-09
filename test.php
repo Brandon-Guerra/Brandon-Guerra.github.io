@@ -13,7 +13,7 @@ $myData = array(
 	'sumx' =>  $sumx,
 	'sumy' =>  $sumy
 );
-
-echo json_encode($myData);
+echo "hello";
+//echo json_encode($myData);
 return;
 ?>
