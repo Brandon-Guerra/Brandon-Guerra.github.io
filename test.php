@@ -9,11 +9,11 @@
 $sumx = $px + $dx + $bx;
 $sumy = $py + $dy + $by;
 
-$myArray = array(
+$myData = array(
 	'sumx' =>  $sumx,
 	'sumy' =>  $sumy
 );
 
-echo(json_encode($myArray));
+echo json_encode($myData);
 return;
 ?>
