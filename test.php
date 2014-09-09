@@ -14,6 +14,6 @@ $myArray = array(
 	"sumy" =>  $sumy
 );
 
-echo json_encode(array);
+echo json_encode($myArray);
 return;
 ?>
