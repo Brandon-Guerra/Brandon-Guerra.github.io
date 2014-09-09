@@ -10,8 +10,8 @@ $sumx = $px + $dx + $bx;
 $sumy = $py + $dy + $by;
 
 $myArray = array(
-	"sumx" =>  $sumx,
-	"sumy" =>  $sumy
+	'sumx' =>  $sumx,
+	'sumy' =>  $sumy
 );
 
 echo(json_encode($myArray));
