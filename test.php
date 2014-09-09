@@ -1,15 +1,18 @@
 <?php
-$px = $_GET("px");
-$py = $_GET("py");
-$dx = $_GET("dx");
-$dy = $_GET("dy");
-$bx = $_GET("bx");
-$by = $_GET("by");
+$px = (int)$_GET("px");
+$py = (int)$_GET("py");
+$dx = (int)$_GET("dx");
+$dy = (int)$_GET("dy");
+$bx = (int)$_GET("bx");
+$by = (int)$_GET("by");
 
 $sumx = $px + $dx + $bx;
 $sumy = $py + $dy + $by;
 
-$myArray = array('sumx' =>  $sumx, 'sumy' => $sumy);
+$myArray = array(
+	"sumx" =>  $sumx,
+	"sumy" =>  $sumy
+);
 
 echo json_encode(array);
 return;
