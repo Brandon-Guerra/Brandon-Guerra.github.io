@@ -1,10 +1,10 @@
 <?php
-$px = (int)$_GET("px");
-$py = (int)$_GET("py");
-$dx = (int)$_GET("dx");
-$dy = (int)$_GET("dy");
-$bx = (int)$_GET("bx");
-$by = (int)$_GET("by");
+$px = $_GET("px");
+$py = $_GET("py");
+$dx = $_GET("dx");
+$dy = $_GET("dy");
+$bx = $_GET("bx");
+$by = $_GET("by");
 
 $sumx = $px + $dx + $bx;
 $sumy = $py + $dy + $by;
