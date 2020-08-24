@@ -18,7 +18,7 @@ iframe {
 }
 
 @media screen and (max-width: 960px) {
-  iframe {
-    flex: 1;
+  #pulse, #todoist {
+    flex: 100%;
   }
 }
